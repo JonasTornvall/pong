@@ -1,5 +1,13 @@
 .pongblock {
-    width: 100px;
+    width: 30px;
     height: 100px;
-    background: green;
+    margin-top: 300px;
+    background: lightgreen;
+    border-radius: 10px;
+    &--left {
+        float: left
+    }
+    &--right {
+        float: right;
+    }
 }

@@ -1,0 +1,19 @@
+
+.sidebox {
+    min-height: 100%;
+    width: 30px;
+    background: burlywood;
+    float: left;
+}
+
+.centerbox {
+    height: 700px;
+    width: 780px;
+    background: brown;
+    float: left;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+}

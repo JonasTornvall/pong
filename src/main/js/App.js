@@ -7,7 +7,7 @@ class App extends Component {
     }
 
     componentWillMount() {
-        console.log('component will mount dude');
+        console.log('component will mount duder');
     }
 
     render() {
