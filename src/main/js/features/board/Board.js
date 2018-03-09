@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Ball from '../../components/ball/Ball'
 
 const moveUp = (elem) => {
     let marginTop = Number(window.getComputedStyle(elem, null).getPropertyValue('margin-top').split('px')[0]);
@@ -70,7 +71,7 @@ class Board extends Component {
                     <div id="pongBlock1" className="pongblock pongblock--left"></div>
                 </div>
                 <div id="centerBox" className="centerbox">
-                    <div id="ball" className="ball"></div>
+                    <Ball id="ball" className="ball"></Ball>
                 </div>
                 <div id="rightBox" className="sidebox">
                     <div id="pongBlock2" className="pongblock pongblock--right"></div>

@@ -9,6 +9,8 @@ built/
 npm-debug.log
 .DS_Store
 *.tar.gz
+*.hot-update.js
+*.hot-update.json
 nyc_output
 .nyc_output
 bundle.js
